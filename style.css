@@ -172,3 +172,38 @@ font-size:32px;
 font-size:16px;
 }
 }
+.hero{
+position:relative;
+height:90vh;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero-image{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+}
+
+.hero-text{
+background:rgba(255,255,255,0.82);
+padding:35px;
+border-radius:20px;
+text-align:center;
+max-width:600px;
+backdrop-filter:blur(5px);
+}
+
+.hero-text h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:20px;
+margin-bottom:25px;
+  }
